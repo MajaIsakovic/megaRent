@@ -161,5 +161,32 @@ body {
 			}
 		}
 	}
+	footer {
+		height: 400px;
+		width: 100%;
+		background-color: black;
 
+		.footerLogo{
+			padding-top: 1em;
+			width: 100%;
+			border-bottom: 1px solid $main_red;
+	
+			span {
+			color: $main_red;
+			}
+		}
+			address {
+				color: white;
+				padding-top: 1em;
+				padding-left: 1em;
+				font-size: 14px;
+				float: left;
+			}
+
+			iframe {
+				float: right;
+				padding-top: 1em;
+				padding-right: 2.5em;
+			}
+	}
 }
