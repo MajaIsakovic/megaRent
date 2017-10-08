@@ -7,3 +7,9 @@
 		color: $main_text_color;
 	}
 }
+
+@mixin section {
+			text-align: center;
+			text-transform: uppercase;
+			padding-top: 5em;
+}

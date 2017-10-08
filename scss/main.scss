@@ -79,5 +79,87 @@ body {
 				color: white;
 			}
 		}
+
 	}
+
+	.catalog {
+		width: 100%;
+		height: 400px;
+		background-color: $gray_background;
+		.content{
+			h3 {margin-bottom: 30px;}
+
+			text-align: center;
+			padding-top: 5em;
+			text-transform: uppercase;
+			figure {
+				width: 25%;
+				height: 140px;
+				float: left;
+				.offer {
+					padding: .2em 2em .2em 2em;
+					background-color: $red_dark;
+					color: white;
+					text-decoration: none;
+					&:hover {
+						padding: .2em 2.2em .2em 2.2em;
+					}
+				}
+				img {
+					height: 85%;
+					width: 85%;
+				}
+			}
+		}
+
+	}
+
+	.pricing {
+		width: 100%;
+		height: 500px;
+		background-color: white;
+		
+
+		.content {
+
+			@include section;
+
+			h3 {
+				margin: 2em;
+			}
+
+			table {
+				margin: 0 auto;
+				border-collapse: collapse;
+
+				thead {
+					th {
+						width: 140px;
+						height: 40px;
+						background-color: $main_red;
+						color: white;
+						font-size: 12px;
+
+					}
+				}
+
+				tbody {
+					td {
+						border-bottom: 1px solid gray;
+						height: 40px;
+						width: 140px;
+						font-size: 12px;
+
+
+						&:first-child {
+							background-color: $gray_background;
+							font-weight: bold;
+						}
+						
+					}
+				}
+			}
+		}
+	}
+
 }
